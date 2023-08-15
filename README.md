@@ -35,10 +35,10 @@ It provides APIs for universities to register, log in, manage student informatio
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/university-student-management.git
+   https://github.com/7AkhilV/Task-University-Management.git
 
 2. Navigate to the project directory:
-   `cd university-student-management`
+   `cd Task-University-Management`
     
 3. Install the dependencies:
    `npm install`
