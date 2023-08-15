@@ -60,23 +60,23 @@ Authentication:
 
 Universities:
 
-- POST /universities: Create a new university
-- GET /universities: Get all universities
-- PUT /universities/:id: Update a university by ID
-- DELETE /universities/:id: Delete a university by ID
+- POST `/universities`: Create a new university
+- GET `/universities`: Get all universities
+- PUT `/universities/:id`: Update a university by ID
+- DELETE `/universities/:id`: Delete a university by ID
 
 Students:
 
-- POST /students: Create a new student
-- GET /students: Get all students
-- GET /students/:id: Get a specific student by ID
-- PUT /students/:id: Update a student by ID
-- DELETE /students/:id: Delete a student by ID
+- POST `/students`: Create a new student
+- GET `/students`: Get all students
+- GET `/students/:id`: Get a specific student by ID
+- PUT `/students/:id`: Update a student by ID
+- DELETE `/students/:id`: Delete a student by ID
 
 Student Events:
 
-- POST /students/:id/events: Create a student event
-- GET /students/:id/events: Get all student events
-- GET /students/:id/events/:eventId: Get a specific student event by ID
-- PUT /students/:id/events/:eventId: Update a student event by ID
-- DELETE /students/:id/events/:eventId: Delete a student event by ID
+- POST `/students/:id/events`: Create a student event
+- GET `/students/:id/events`: Get all student events
+- GET `/students/:id/events/:eventId`: Get a specific student event by ID
+- PUT `/students/:id/events/:eventId`: Update a student event by ID
+- DELETE `/students/:id/events/:eventId`: Delete a student event by ID
