@@ -67,16 +67,16 @@ Universities:
 
 Students:
 
-- POST `/students`: Create a new student
-- GET `/students`: Get all students
-- GET `/students/:id`: Get a specific student by ID
-- PUT `/students/:id`: Update a student by ID
-- DELETE `/students/:id`: Delete a student by ID
+- POST `/students/students`: Create a new student
+- GET `/students/students`: Get all students
+- GET `/students/students/:id`: Get a specific student by ID
+- PUT `/students/students/:id`: Update a student by ID
+- DELETE `/students/students/:id`: Delete a student by ID
 
 Student Events:
 
-- POST `/students/:id/events`: Create a student event
-- GET `/students/:id/events`: Get all student events
-- GET `/students/:id/events/:eventId`: Get a specific student event by ID
-- PUT `/students/:id/events/:eventId`: Update a student event by ID
-- DELETE `/students/:id/events/:eventId`: Delete a student event by ID
+- POST `/students/students/:id/events`: Create a student event
+- GET `/students/students/:id/events`: Get all student events
+- GET `/students/students/:id/events/:eventId`: Get a specific student event by ID
+- PUT `/students/students/:id/events/:eventId`: Update a student event by ID
+- DELETE `/students/students/:id/events/:eventId`: Delete a student event by ID
